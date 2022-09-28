@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .container-main {
@@ -59,4 +60,12 @@ p {
   letter-spacing: 0.01em;
   padding: 0 1em;
   color: var(--grayish-blue);
+}
+
+.attribution {
+  font-size: 11px; text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
 }
